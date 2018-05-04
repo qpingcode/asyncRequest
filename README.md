@@ -36,6 +36,10 @@
     }
 
 ```
+然后加载JS封装类：
+```
+<script src="async_task.js" type="text/javascript"></script>
+```
 
 前台JS代码示例：
 ```
