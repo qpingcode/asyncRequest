@@ -22,7 +22,7 @@
         return asyncWebTask.getTaskResult(taskId);
     }
 
-    // 提供查询是否任务处理进度的入口
+    // 查询任务处理进度的入口
     @RequestMapping(value = "/example/getTaskStatus")
     @ResponseBody
     public AsyncResult getTaskStatus(String taskId) {
@@ -38,7 +38,7 @@
 ```
 然后加载JS封装类：
 ```
-<script src="async_task.js" type="text/javascript"></script>
+<script src="js/async_task.js" type="text/javascript"></script>
 ```
 
 前台JS代码示例：
