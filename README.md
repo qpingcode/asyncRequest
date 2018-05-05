@@ -31,8 +31,7 @@
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        AsyncWebTask asyncWebTask = AsyncWebTask.getInstance();
-        return asyncWebTask.getTaskResult(taskId);
+        return AsyncWebTask.getInstance().getTaskResult(taskId);
     }
 
 ```
