@@ -51,7 +51,7 @@
         data: {},
         success: function (data) {
             if (data == "success") {
-                showInfo("更新成功！")
+                alert("更新成功！")
             }
         },
         error: function (e, status) {
