@@ -22,9 +22,7 @@ var asyncTask = {
             type : "POST",
             async : true,
             data : data,
-            contentType : "application/json; charset=utf-8",
             success : function(data) {
-                var data = eval("(" + data + ")");
                 that.getAsyncStatus(statusUrl, data, successCallback, errorCallback);
             },
             error : function(x, e) {
@@ -52,9 +50,7 @@ var asyncTask = {
                 cache : false,
                 type : "POST",
                 async : true,
-                contentType : "application/json; charset=utf-8",
                 success : function(data) {
-                    var data = eval("(" + data + ")");
                     that.getAsyncStatus(statusUrl, data, successCallback, errorCallback);
                 },
                 error : function(x, e) {
